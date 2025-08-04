@@ -38,9 +38,8 @@ const PromptCard = ({ post, handleEdit, handleDelete, handleTagClick }) => {
             alt='user_image'
             width={40}
             height={40}
-            className='rounded-full object-contain'
+            className='w-10 h-10 rounded-full object-cover'
           />
-
           <div className='flex flex-col'>
             <h3 className='font-satoshi font-semibold text-gray-900'>
               {post.creator.username}
